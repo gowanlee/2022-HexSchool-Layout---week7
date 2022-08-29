@@ -20,10 +20,10 @@
   - [Animation.css](https://animate.style/)
   
 <b>2. [transform](https://codepen.io/liao/pen/VwvqWZQ) 很適合用來做動畫效果，因為移動時不會影響其他元素推擠</b>
-    - `transform: rotate(旋轉角度deg);`
-    - `transform: scale(放大幾倍);`
-    - `transform: translateX(水平移動幾px);`
-    - `transform: translateY(垂直移動幾px);`
+  - `transform: rotate(旋轉角度deg);`
+  - `transform: scale(放大幾倍);`
+  - `transform: translateX(水平移動幾px);`
+  - `transform: translateY(垂直移動幾px);`
     
 <b>3. [opacity](https://codepen.io/liao/pen/jObXwPN) 半透明效果</b>
 
