@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* rwd img css，可當作是CSS Reset 其中一個 */
+/* 圖片跟隨視窗縮放 */
+/* 圖片不會有多餘的2-3px */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* 全域 border box */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* a連結 文字樣式移除 */
+a {
+  display: block;
+  text-decoration: none;
+}
+
+body {
+  line-height: 1.5;
+  /* 確保為無襯線字型 */
+  font-family: "PingFang TC", "SF Pro Text", "Microsoft JhengHei", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.pl-23 {
+  padding-left: 24px;
+}
+
+.fw-semiBold {
+  font-weight: 500;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #A00404;
+}
+
+.bb {
+  border-bottom: 1px solid #000;
+}
+
+.bb-white {
+  border-bottom: 1px solid #fff;
+}
+
+.bl {
+  border-left: 1px solid #96A9C4;
+}
+
+.section-title {
+  font-size: 32px;
+  padding-bottom: 7px;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 24px;
+  padding-left: 16px;
+  vertical-align: 5px;
+  font-family: "SF Pro Text";
+}
+
+.color-box {
+  background-color: #415165;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+.color-box a {
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  padding-top: 40px;
+  padding-bottom: 22px;
+  font-size: 80px;
+  line-height: 95px;
+  border-bottom: 2px solid #000;
+  font-family: "SF Pro Text";
+}
+
+.skills-title {
+  max-width: 996px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.work-experience-list {
+  margin-left: 24px;
+}
+
+.footer {
+  text-align: center;
+}
+.footer h2 {
+  margin-bottom: 24px;
+}
+.footer ul {
+  gap: 24px;
+}
+.footer ul a:hover {
+  opacity: 0.5;
+}

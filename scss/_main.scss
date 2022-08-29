@@ -1,0 +1,29 @@
+.header-title{
+    padding-top: 40px;
+    padding-bottom: 22px;
+    font-size: 80px;
+    line-height: 95px;
+    border-bottom: 2px solid #000;
+    font-family: 'SF Pro Text';
+}
+.skills-title{
+    max-width: 996px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.work-experience-list{
+    margin-left: 24px;
+}
+.footer{
+    text-align: center;
+    h2{
+        margin-bottom: 24px;
+    }
+    ul{
+        gap: 24px;
+        a:hover{
+            opacity: 0.5;
+        }
+    }
+}

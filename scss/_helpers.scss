@@ -1,0 +1,92 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// margin
+.mb-80{
+    margin-bottom: 80px;
+}
+.mb-64{
+    margin-bottom: 64px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+// ------end------ //
+// padding
+.pl-23{
+    padding-left: 24px;
+}
+// ------end------ //
+// font-weight
+.fw-semiBold{
+    font-weight: $semiBold;
+}
+.fw-light{
+    font-weight: $light;
+}
+// ------end------ //
+// font-size
+.fz-24{
+    font-size: 24px;
+}
+.fz-20{
+    font-size: 20px;
+}
+// ------end------ //
+// color
+.color-primary{
+    color: $color-primary;
+}
+// ------end------ //
+// border
+.bb{
+    border-bottom: 1px solid #000;
+}
+.bb-white{
+    border-bottom: 1px solid #fff;
+}
+.bl{
+    border-left: 1px solid #96A9C4;
+}
+// ------end------ //
+
+.section-title{
+    font-size: 32px;
+    padding-bottom: 7px;
+    margin-bottom: 16px;
+}
+
+.subtitle{
+    font-size: 24px;
+    padding-left: 16px;
+    vertical-align: 5px;
+    font-family: 'SF Pro Text';
+}
+
+.color-box{
+    background-color: $color-second;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    color: #fff;
+
+    a{
+        color: #fff;
+    }
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
