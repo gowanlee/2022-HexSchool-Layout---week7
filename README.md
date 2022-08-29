@@ -4,7 +4,7 @@
 
 本週學習重點：
 
-1. animation
+<b>1. animation</b>
   - [基本範例](https://codepen.io/liao/pen/JjYwNVW?editors=1100)
     - `animation-name`：要執行的 animation 名稱
     - `animation-duration`：要執行 animation 過程的秒數
@@ -18,13 +18,13 @@
     - `backwards`：回到原本位置
     - `both`：擁有上面兩個的功能
   - [Animation.css](https://animate.style/)
-2. [transform](https://codepen.io/liao/pen/VwvqWZQ) 很適合用來做動畫效果，因為移動時不會影響其他元素推擠
+<b>2. [transform](https://codepen.io/liao/pen/VwvqWZQ) 很適合用來做動畫效果，因為移動時不會影響其他元素推擠</b>
     - `transform: rotate(旋轉角度deg);`
     - `transform: scale(放大幾倍);`
     - `transform: translateX(水平移動幾px);`
     - `transform: translateY(垂直移動幾px);`
-3. [opacity](https://codepen.io/liao/pen/jObXwPN) 半透明效果 
-4. [AOS](https://michalsnik.github.io/aos/) 當滑鼠滾到對應位置時會出現class動畫效果
+<b>3. [opacity](https://codepen.io/liao/pen/jObXwPN) 半透明效果</b>
+<b>4. [AOS](https://michalsnik.github.io/aos/) 當滑鼠滾到對應位置時會出現class動畫效果</b>
   - [範例](https://codepen.io/liao/pen/PoPXKvm)
   - 載入步驟
     - 在 </body>前加上以下程式碼
@@ -76,6 +76,6 @@
       - `once` 如果滑鼠滾來滾去動畫只想要出現一次時可以改成true
       - `duration` 建議設置400-800毫秒間
       - `offset` 指要距離多少時會出現下一個動畫，建議80-120-150px
-5. [hover.css](https://ianlunn.github.io/Hover/)
-6. [CSShake](http://elrumordelaluz.github.io/csshake/)
+<b>5. [hover.css](https://ianlunn.github.io/Hover/)</b>
+<b>6. [CSShake](http://elrumordelaluz.github.io/csshake/)</b>
   
